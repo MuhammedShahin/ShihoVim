@@ -8,9 +8,9 @@ vim.opt.relativenumber = true
 
 vim.g.mapleader = " "
 --Enalbe system clipboard integration
-vim.o.clipboard = vim.o.clipboard .. 'unnamedplus'
+vim.o.clipboard = vim.o.clipboard .. "unnamedplus"
 
---Disable search highlighting 
+--Disable search highlighting
 vim.opt.hlsearch = false
 vim.opt.incsearch = true
 
