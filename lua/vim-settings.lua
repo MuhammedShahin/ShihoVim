@@ -5,6 +5,7 @@ vim.cmd("set shiftwidth=2")
 
 vim.opt.nu = true
 vim.opt.relativenumber = true
+vim.opt.scrolloff = 8
 
 vim.g.mapleader = " "
 --Enalbe system clipboard integration
