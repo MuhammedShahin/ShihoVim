@@ -52,7 +52,7 @@ return {
 				vim.keymap.set("n", "<leader>q", vim.diagnostic.setloclist, opts)
 			end
 
-			local lsp_servers = { "lua_ls", "tsserver", "clangd", "html" }
+			local lsp_servers = { "lua_ls", "tsserver", "clangd", "html", "cssls" }
 
 			for _, lsp in ipairs(lsp_servers) do
 				lspconfig[lsp].setup({
