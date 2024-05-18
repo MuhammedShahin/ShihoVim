@@ -20,6 +20,9 @@ vim.o.clipboard = vim.o.clipboard .. "unnamedplus"
 vim.keymap.set("v", "K", ":m '<-2<CR>gv=gv")
 vim.keymap.set("v", "J", ":m '>+1<CR>gv=gv")
 
+vim.keymap.set('n', '<C-w>v', '<C-w>v<C-w>l')
+vim.keymap.set('n', '<C-w>s', '<C-w>s<C-w>j')
+
 -- This is going to get me cancelled
 vim.keymap.set("i", "<C-c>", "<Esc>")
 
